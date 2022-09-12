@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8515a952-55a7-45af-8cce-6bf69f81579f" name="Changes" comment="added Function functional interface">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" afterDir="false" />
+    <list default="true" id="8515a952-55a7-45af-8cce-6bf69f81579f" name="Changes" comment="reformatted code">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/FunctionalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Match.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +45,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.niit.jdp.Main" />
+    <configuration name="FunctionalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.jdp.FunctionalInterface" />
       <module name="Task_One" />
       <extension name="coverage">
         <pattern>
@@ -59,7 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FunctionalInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662983017340</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="reformatted code">
+      <created>1662983100412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662983100412</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +152,7 @@
     <MESSAGE value="added Consumer method" />
     <MESSAGE value="added Predicate method" />
     <MESSAGE value="added Function functional interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Function functional interface" />
+    <MESSAGE value="reformatted code" />
+    <option name="LAST_COMMIT_MESSAGE" value="reformatted code" />
   </component>
 </project>
