@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8515a952-55a7-45af-8cce-6bf69f81579f" name="Changes" comment="added supplier function">
+    <list default="true" id="8515a952-55a7-45af-8cce-6bf69f81579f" name="Changes" comment="added Predicate method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" afterDir="false" />
     </list>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662982002260</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added Consumer method">
+      <created>1662982238934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662982238934</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +135,8 @@
     <MESSAGE value="changed jdk version from 18 to 11" />
     <MESSAGE value="added supplier class" />
     <MESSAGE value="added supplier function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added supplier function" />
+    <MESSAGE value="added Consumer method" />
+    <MESSAGE value="added Predicate method" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Predicate method" />
   </component>
 </project>

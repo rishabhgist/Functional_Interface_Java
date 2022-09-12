@@ -1,25 +1,22 @@
 package com.niit.jdp;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 import java.util.function.*;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> customerName = new ArrayList<>();
-        Match match = new Match();
-        customerName.add("Charles");
-        customerName.add("Becky");
-        customerName.add("Zyan");
-        customerName.add("Mike");
-
         // Supplier
-        Supplier<List<String>> name = () -> customerName;
+        Supplier<String> name = () -> "Java";
         System.out.println(name.get());
 
         // Consumer
-        Consumer<List<String>> firstName = strings -> System.out.println(strings.iterator().next());
+        Consumer<String> firstName = s -> System.out.println("John");
 
+        // Predicate
+        Predicate<String> values = s -> true;
+        System.out.println(values.test("Becky"));
+
+        //Function
+        Function<String, Integer> lengthFunction = String::length;
+        lengthFunction.apply("Java");
     }
 }
