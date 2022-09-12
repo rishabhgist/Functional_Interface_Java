@@ -10,6 +10,7 @@ public class Main {
 
         // Consumer
         Consumer<String> firstName = s -> System.out.println("John");
+        System.out.println(firstName);
 
         // Predicate
         Predicate<String> values = s -> true;
